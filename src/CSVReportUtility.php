@@ -1,6 +1,6 @@
 <?php
 
-namespace CSVReportingUtility;
+namespace BrandonSaunders\CSV;
 
 use Exception;
 
