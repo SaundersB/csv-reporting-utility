@@ -1,5 +1,5 @@
 {
-  "name": "brandonsaunders/csv_reporting_utility",
+  "name": "brandonsaunders/csv-reporting-utility",
   "type": "library",
   "description": "Library to save data array as a CSV report.",
   "keywords": ["csv","report"],
