@@ -1,5 +1,9 @@
 <?php
 
+namespace CSVReportingUtility;
+
+use Exception;
+
 class CSVReportUtility
 {
 
@@ -9,7 +13,7 @@ class CSVReportUtility
      * @param  $filename
      * @return string|null
      */
-    public function writeDataToCSV($path, $rows, $filename)
+    public static function writeDataToCSV($path, $rows, $filename)
     {
         if (!isset($rows) || sizeof($rows) <= 0) {
             return null;
@@ -39,7 +43,7 @@ class CSVReportUtility
         }
     }
 
-    public function deleteCSVReport($path){
+    public static function deleteCSVReport($path){
         try {
             unlink($path);
         } catch (Exception $exception){
