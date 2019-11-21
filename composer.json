@@ -1,0 +1,16 @@
+{
+  "name": "brandonsaunders/csv_reporting_utility",
+  "type": "library",
+  "description": "Library to save data array as a CSV report.",
+  "keywords": ["csv","report"],
+  "homepage": "https://saundersb.github.io/brandon.saunders.portfolio/#/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brandon Saunders",
+      "email": "BrandonNSaunders@gmail.com",
+      "homepage": "https://saundersb.github.io/brandon.saunders.portfolio/#/",
+      "role": "Developer"
+    }
+  ]
+}
